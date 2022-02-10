@@ -10,13 +10,15 @@
 <body>
     <h1 class="text-5xl text-center mt-16 font-semibold">Welcome To <span class="font-semibold text-pink-500">My Website</span></h1>
    <main>
-       <section> 
-        <form action="">
-            <input type="text" placeholder="enter your email">
-            <input type="password" placeholder="enter your email">
-            
-        </form>
+       <section class="bg-gray-200 w-2/4 p-8 mx-auto  mt-12"> 
+           <h2 class="test-5xl text-center">Please Login</h2>
+        <div>
+            <input id="user-email" class="border rounded p-1 pl-5 m-2 border-gray-300 inline-block " type="text" placeholder="enter your email">
+            <input id="user-password"  class="border rounded p-1 pl-5 m-2 border-gray-300 block " type="password" placeholder="enter your password">
+            <button id="loginbtn" class="bg-pink-400 content-end px-4 py-2 font-medium bold rounded text-white">submit</button>
+        </div>
     </section>
    </main>
+   <script src="bank.js"></script>
 </body>
 </html>
